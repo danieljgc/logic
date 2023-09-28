@@ -8,6 +8,9 @@ function calculatorTwo(){
     mitad = numeroAleatorio / 2;
     console.log("La mitad de " + numeroAleatorio + " es: " + mitad);
 
+    doble = numeroAleatorio * 2;
+    console.log("El doble del número " + numeroAleatorio + " es: " + doble);
+
     //Se va a utilizar la función Math.sqrt() para hallar la raíz cuadrada
 
     var raiz = Math.sqrt(numeroAleatorio);
