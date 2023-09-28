@@ -2,9 +2,7 @@
 
 
 function calculatorTwo(){
-    var minimo = 1;
-    var maximo = 100;
-    var numeroAleatorio = Math.round(Math.random() * (maximo - minimo)) + minimo;
+    var numeroAleatorio = Math.round(Math.random() * (100 - 1)) + 1;
     console.log("El número aleatorio es: " + numeroAleatorio);
 
     mitad = numeroAleatorio / 2;
